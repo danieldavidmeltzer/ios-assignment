@@ -42,7 +42,7 @@
 
 
 - (NSInteger)horizontalTableViewNumberOfCellsWithTableView:(HorizontalTableView * )tableView {
-    return 10000000;
+    return 100;
 }
 
 - (UIView * )horizontalTableViewWithTableView:(HorizontalTableView * )tableView cellForIndex:(NSInteger)index {

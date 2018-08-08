@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65F36074211B38A60076E7B6 /* HorizontalTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F36073211B38A60076E7B6 /* HorizontalTableView.swift */; };
 		BADDC51D1FCE925E00B60AD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDC51C1FCE925E00B60AD9 /* AppDelegate.m */; };
 		BADDC5201FCE925E00B60AD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDC51F1FCE925E00B60AD9 /* ViewController.m */; };
 		BADDC5231FCE925E00B60AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADDC5211FCE925E00B60AD9 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		BADDC52B1FCE925E00B60AD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDC52A1FCE925E00B60AD9 /* main.m */; };
 		BADDC5351FCE925E00B60AD9 /* paykey_ios_interviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDC5341FCE925E00B60AD9 /* paykey_ios_interviewTests.m */; };
 		BADDC5401FCE925E00B60AD9 /* paykey_ios_interviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDC53F1FCE925E00B60AD9 /* paykey_ios_interviewUITests.m */; };
-		BADDC54F1FCE92E400B60AD9 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDC54E1FCE92E400B60AD9 /* HorizontalTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65F36072211B38A20076E7B6 /* paykey-ios-interview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "paykey-ios-interview-Bridging-Header.h"; sourceTree = "<group>"; };
+		65F36073211B38A60076E7B6 /* HorizontalTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableView.swift; sourceTree = "<group>"; };
 		BADDC5181FCE925E00B60AD9 /* paykey-ios-interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "paykey-ios-interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADDC51B1FCE925E00B60AD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BADDC51C1FCE925E00B60AD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		BADDC53B1FCE925E00B60AD9 /* paykey-ios-interviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "paykey-ios-interviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADDC53F1FCE925E00B60AD9 /* paykey_ios_interviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = paykey_ios_interviewUITests.m; sourceTree = "<group>"; };
 		BADDC5411FCE925E00B60AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BADDC54D1FCE92E300B60AD9 /* HorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTableView.h; sourceTree = "<group>"; };
-		BADDC54E1FCE92E400B60AD9 /* HorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,7 @@
 				BADDC5331FCE925E00B60AD9 /* paykey-ios-interviewTests */,
 				BADDC53E1FCE925E00B60AD9 /* paykey-ios-interviewUITests */,
 				BADDC5191FCE925E00B60AD9 /* Products */,
+				65F36072211B38A20076E7B6 /* paykey-ios-interview-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,8 +109,7 @@
 				BADDC51C1FCE925E00B60AD9 /* AppDelegate.m */,
 				BADDC51E1FCE925E00B60AD9 /* ViewController.h */,
 				BADDC51F1FCE925E00B60AD9 /* ViewController.m */,
-				BADDC54D1FCE92E300B60AD9 /* HorizontalTableView.h */,
-				BADDC54E1FCE92E400B60AD9 /* HorizontalTableView.m */,
+				65F36073211B38A60076E7B6 /* HorizontalTableView.swift */,
 				BADDC5211FCE925E00B60AD9 /* Main.storyboard */,
 				BADDC5241FCE925E00B60AD9 /* Assets.xcassets */,
 				BADDC5261FCE925E00B60AD9 /* LaunchScreen.storyboard */,
@@ -199,11 +199,12 @@
 		BADDC5101FCE925D00B60AD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "ishay weinstock";
 				TargetAttributes = {
 					BADDC5171FCE925E00B60AD9 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					BADDC52F1FCE925E00B60AD9 = {
@@ -270,8 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F36074211B38A60076E7B6 /* HorizontalTableView.swift in Sources */,
 				BADDC5201FCE925E00B60AD9 /* ViewController.m in Sources */,
-				BADDC54F1FCE92E400B60AD9 /* HorizontalTableView.m in Sources */,
 				BADDC52B1FCE925E00B60AD9 /* main.m in Sources */,
 				BADDC51D1FCE925E00B60AD9 /* AppDelegate.m in Sources */,
 			);
@@ -342,6 +343,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -349,6 +351,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -365,7 +368,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -397,6 +400,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -404,6 +408,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -419,6 +424,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -428,6 +434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -436,12 +443,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HVUD5U693H;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 65Y9Z98NC6;
 				INFOPLIST_FILE = "paykey-ios-interview/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ishaywei.paykey-ios-interview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "paykey-ios-interview-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,12 +462,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HVUD5U693H;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 65Y9Z98NC6;
 				INFOPLIST_FILE = "paykey-ios-interview/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ishaywei.paykey-ios-interview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "paykey-ios-interview-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -463,6 +479,7 @@
 		BADDC5481FCE925E00B60AD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "paykey-ios-interviewTests/Info.plist";
@@ -477,6 +494,7 @@
 		BADDC5491FCE925E00B60AD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "paykey-ios-interviewTests/Info.plist";
@@ -491,6 +509,7 @@
 		BADDC54B1FCE925E00B60AD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "paykey-ios-interviewUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -504,6 +523,7 @@
 		BADDC54C1FCE925E00B60AD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "paykey-ios-interviewUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

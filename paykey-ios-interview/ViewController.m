@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HorizontalTableView.h"
+#import "paykey_ios_interview-Swift.h"
 
 @interface ViewController () <HorizontalTableViewDataSource>
 
@@ -40,13 +40,12 @@
 
 #pragma Mark HorizontalTableViewDelegate
 
-- (NSInteger)horizontalTableViewNumberOfCells:(HorizontalTableView*)tableView{
-    return 100;
+
+- (NSInteger)horizontalTableViewNumberOfCellsWithTableView:(HorizontalTableView * )tableView {
+    return 10000000;
 }
 
-- (UIView*)horizontalTableView:(HorizontalTableView*)tableView cellForIndex:(NSInteger)index{
-    
-    
+- (UIView * )horizontalTableViewWithTableView:(HorizontalTableView * )tableView cellForIndex:(NSInteger)index {
     UILabel* cell = (UILabel*)[tableView dequeueCell];
     if (!cell){
         cell = [[UILabel alloc] init];
@@ -57,5 +56,7 @@
     
     return cell;
 }
+
+
 
 @end
